@@ -1,0 +1,29 @@
+
+:root {
+    /** Shape **/
+    --button-shape-border-radius: 999rem;
+    --button-shape-border-width: 2px;
+    --button-shape-border-style: solid;
+
+    /** Color **/
+    --button-color-background-color: hsl(271, 76%, 90%);
+    --button-color-border-color: hsl(216, 12%, 8%);
+    --button-color-label-color: #212529;
+
+    /** Spacing **/
+    --button-padding-horizontal: 0.75rem;
+    --button-padding-vertical: 0.25rem;
+
+}
+.button {
+    font-size: 1rem;
+    background-color: var(--button-color-background-color);
+    border-top-left-radius: var(--button-shape-border-radius);
+    border-top-right-radius:  var(--button-shape-border-radius);
+    border-bottom-left-radius:  var(--button-shape-border-radius);
+    border-bottom-right-radius:  var(--button-shape-border-radius);
+    border-style: var(--button-shape-border-style);
+    border-width: var(--button-shape-border-width);
+    padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+
+}
